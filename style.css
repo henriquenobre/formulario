@@ -100,8 +100,18 @@ fieldset.grupo .campo{
 
 /* MOBILE LAYOUT */
 @media only screen and (max-width: 665px) {
-    .body{
+    #title{
         font-size: 2em;
-      margin: 0 20px;
+        margin-left: -92px;
+    }
+    
+    #description{
+        font-size: 2em;
+        margin-left: -5px;
+    }
+    #survey-form{
+        font-size: 2eem;
+        margin-left: -50%;
+        margin-right: -29%;
     }
 }

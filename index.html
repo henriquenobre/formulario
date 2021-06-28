@@ -7,48 +7,50 @@
     <link rel="shortcut icon" href="Alecive-Flatwoken-Apps-Google-Drive-Forms.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="head">
     <h1 id="title">Cadastro de DEVs</h1>
-    <p id="description">Coloque suas informações</p>
+    <p id="description"><strong>Coloque suas informações</strong></p>
     <br>
+    </div>
 
     <form id="survey-form">
-        <fieldset class="grupo">
+        <fieldset class="grupo1">
         <div class="campo">
-            <label id="name-label" for="nome"><strong>Nome</strong></label>
+            <label id="name-label" for="nome"><strong>Nome</strong></label><br>
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
         </div>
 
         <div class="campo">
-            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <label for="sobrenome"><strong>Sobrenome</strong></label><br>
             <input type="text" name="sobrenome" id="sobrenome"  placeholder="Digite seu sobrenome...">
         </div>
 
         <div class="campo">
-            <label id="email-label" for="email"><strong>Email</strong></label>
+            <label id="email-label" for="email"><strong>Email</strong></label><br>
             <input type="email" name="email" id="email" placeholder="Digite seu email...">
         </div>
 
         <div class="campo">
-            <label id="number-label" for="number"><strong>Número</strong></label>
+            <label id="number-label" for="number"><strong>Número</strong></label><br>
             <input type="number" name="number" id="number" min="1" max="100000000000" placeholder="Digite seu número...">
         </div>
         </fieldset>
 
-        <div class="campo">
+        <div class="campo" id="opcoes">
             <label><strong>De qual lado da aplicação você desenvolve?</strong></label>
-            <label>
+            <label><br>
                 <input type="radio" name="devweb" value="frontend">Front-end</label>
-            </label>
+            </label><br>
             <label>
                 <input type="radio" name="devweb" value="backend">Back-end</label>
-            </label>
+            </label><br>
             
             <label>
                 <input type="radio" name="devweb" value="fullstack">Fullstack</label>
             </label>
         </div>
 
-        <div class="campo">
+        <div class="campo" id="senior">
             <label><strong>Senioridade</strong></label>
             <select id="dropdown">
                 <option selected disabled value="">Escolha</option>
@@ -58,7 +60,7 @@
             </select> 
         </div>
 
-        <fieldset class="grupo">
+        <fieldset class="grupo2">
             <div class="check">
                 <label><strong>Selecione as tecnologias que você ultiliza</strong></label><br><br>
                 <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
@@ -78,7 +80,7 @@
             </div>
         </fieldset>
 
-        <div class="campo">
+        <div class="campo" id="experiencia">
             <br>
             <label><strong>Conte um pouco da sua experiência</strong></label>
             <textarea row="6" style="width: 16cm; height: 65px;" id="experiencia" name="experiencia"></textarea>
@@ -88,5 +90,6 @@
 
     
     </form>
+    
 </body>
 </html>

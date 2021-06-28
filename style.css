@@ -4,5 +4,94 @@ body{
     font-family: 'Poppins',sans-serif;
     font-size: 1rem;
     line-height: 1.4;
-    color: ;
+    background-color: #263640;
+    
+}
+
+.head{
+    text-align: center;
+    color: white;
+}
+
+form{
+    background: #358C74;
+    box-shadow: 2px 2px 5px black;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+fieldset {
+    border: 0;
+}
+
+.campo{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+label{
+    font-size: 1.125rem;
+}
+
+.grupo1 label{
+    margin-left: 1rem;
+}
+input, select, textarea, button {
+    border-radius: 5px;
+    margin-top: 0.5rem;
+}
+
+.grupo1{
+    text-align: left;
+}
+
+.grupo1 input{
+    height: 30px;
+    width: 600px;
+    border: 1px solid  #BFBCBA;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin-left: 1rem;
+}
+
+#opcoes{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+#senior{
+    margin-left: 2rem;
+}
+
+.grupo2{
+    margin-left: 1.25rem;
+}
+
+#experiencia{
+    text-align: center;
+}
+
+.botao{
+    margin-left: 17rem;
+    border: 0;
+    background: #263640;
+    color: white;
+    height: 2.5rem;
+    width: 8rem;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+
+.botao:hover{
+    background-color: #17BF82;
+}
+
+.botao, select, .grupo2 input{
+    cursor: pointer;
 }

@@ -95,3 +95,9 @@ input, select, textarea, button {
 .botao, select, .grupo2 input{
     cursor: pointer;
 }
+
+@media (min-width: 665px){
+    .head{
+        font-size: 2rem;
+    }
+}

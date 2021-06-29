@@ -17,7 +17,6 @@ form{
     box-shadow: 2px 2px 5px black;
     margin-left: 20%;
     margin-right: 20%;
-    text-align: left;
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 25px;
@@ -25,17 +24,22 @@ form{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    
+    align-items: flex-start;
 }
 
 fieldset {
     border: 0;
-    display: flex;
 }
 
 .campo{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.campo-grupo1{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
 }
 
 label{
@@ -55,13 +59,15 @@ input, select, textarea, button {
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-
+    margin: 0;
 }
 .grupo1 input{
     border: 1px solid  #BFBCBA;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     margin-left: 1rem;
     margin-right: 1rem;
+    height: 30px;
+    width: 150px;
 }
 
 #opcoes{
@@ -79,10 +85,10 @@ input, select, textarea, button {
 
 #experiencia{
     text-align: center;
+    align-self: center;
 }
 
 .botao{
-    margin-left: 17rem;
     border: 0;
     background: #263640;
     color: white;
@@ -90,7 +96,7 @@ input, select, textarea, button {
     width: 8rem;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-
+    align-self: center;
 }
 
 .botao:hover{
@@ -103,6 +109,11 @@ input, select, textarea, button {
 
 @media (max-width: 665px){
     .head{
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    form{
+        margin: auto;
+        font-size: 1.5rem;
     }
 }
+

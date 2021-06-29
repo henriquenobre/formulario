@@ -5,7 +5,6 @@ body{
     font-size: 1rem;
     line-height: 1.4;
     background-color: #263640;
-    
 }
 
 .head{
@@ -16,18 +15,22 @@ body{
 form{
     background: #358C74;
     box-shadow: 2px 2px 5px black;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     text-align: left;
     border-radius: 5px;
     padding-top: 10px;
     padding-bottom: 25px;
     color: white;
     max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 fieldset {
     border: 0;
+    display: flex;
 }
 
 .campo{
@@ -48,18 +51,17 @@ input, select, textarea, button {
 }
 
 .grupo1{
+    max-width: 100%;
     text-align: left;
-    
+    display: flex;
+    flex-wrap: wrap;
+
 }
 .grupo1 input{
-    height: 30px;
-    width: 600px;
     border: 1px solid  #BFBCBA;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     margin-left: 1rem;
     margin-right: 1rem;
-    
-    
 }
 
 #opcoes{

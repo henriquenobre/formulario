@@ -23,6 +23,7 @@ form{
     padding-top: 10px;
     padding-bottom: 25px;
     color: white;
+    max-width: 100%;
 }
 
 fieldset {
@@ -32,7 +33,6 @@ fieldset {
 .campo{
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    
 }
 
 label{
@@ -49,14 +49,17 @@ input, select, textarea, button {
 
 .grupo1{
     text-align: left;
+    
 }
-
 .grupo1 input{
     height: 30px;
     width: 600px;
     border: 1px solid  #BFBCBA;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     margin-left: 1rem;
+    margin-right: 1rem;
+    
+    
 }
 
 #opcoes{
@@ -92,7 +95,7 @@ input, select, textarea, button {
     background-color: #17BF82;
 }
 
-.botao, select, .grupo2 input{
+.botao, select, .grupo2 input, #opcoes input{
     cursor: pointer;
 }
 
